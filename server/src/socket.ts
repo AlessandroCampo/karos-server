@@ -4,11 +4,11 @@ import { testDecks } from './testDecks';
 import { fetchDeckData } from './game/deckService';
 import { createSession, getSession } from './game/gameState';
 import { shuffle, diceRoll } from './game/gameUtils';
-import { gameRules } from '../../shared/gameRules';
+import { gameRules } from '../shared/gameRules';
 import {
     PlayerState,
     GameState,
-} from '../../shared/interfaces';
+} from '../shared/interfaces';
 import { prisma } from './prismaClient';
 
 import { initGameMethods } from './mutiplayer/gameMethods';

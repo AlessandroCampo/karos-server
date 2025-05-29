@@ -18,11 +18,11 @@ import {
     RerollPayload,
     EventType,
     SubType
-} from '../../shared/interfaces';
-import { gameRules } from '../../shared/gameRules';
-import { Card } from '../../shared/Card';
-import { cardCanBePlayed, Unit, unitsCanBattle } from '../../shared/validations';
-import { EffectType } from '../../shared/Effect';
+} from '../shared/interfaces';
+import { gameRules } from '../shared/gameRules';
+import { Card } from '../shared/Card';
+import { cardCanBePlayed, Unit, unitsCanBattle } from '../shared/validations';
+import { EffectType } from '../shared/Effect';
 import { cardEffects, drawCard, getActiveEffects } from './data/cardEffects';
 
 import { useEffect } from './game/effects/useEffect';

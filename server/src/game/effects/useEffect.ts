@@ -1,7 +1,7 @@
-import { Card } from "../../../../shared/Card";
+import { Card } from "../../../shared/Card";
 import { cardEffects, getActiveEffects } from "../../data/cardEffects";
-import { EffectType } from "../../../../shared/Effect";
-import { GameState, PlayerState, ServerRequest, TargetSelectionRequest } from "../../../../shared/interfaces";
+import { EffectType } from "../../../shared/Effect";
+import { GameState, PlayerState, ServerRequest, TargetSelectionRequest } from "../../../shared/interfaces";
 import { SideEffect } from "../../../shared/interfaces";
 import { Effect } from "../../../shared/Effect";
 

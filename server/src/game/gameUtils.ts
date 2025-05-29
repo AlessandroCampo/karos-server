@@ -1,6 +1,6 @@
-import { Card } from "../../../shared/Card";
-import { EffectType } from "../../../shared/Effect";
-import { GameState, Keyword, PlayerState, StatKey } from "../../../shared/interfaces";
+import { Card } from "../../shared/Card";
+import { EffectType } from "../../shared/Effect";
+import { GameState, Keyword, PlayerState, StatKey } from "../../shared/interfaces";
 
 import { useEffect } from '../game/effects/useEffect';
 const { activateEffect } = useEffect();

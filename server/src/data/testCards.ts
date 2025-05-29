@@ -1,4 +1,4 @@
-import { CardParams, CardType, Color, Keyword, SubType, CardTemplateMap } from "../../../shared/interfaces";
+import { CardParams, CardType, Color, Keyword, SubType, CardTemplateMap } from "../../shared/interfaces";
 import { blackTemplates } from "./cards/blackCards";
 import { redTemplates } from "./cards/redCards";
 

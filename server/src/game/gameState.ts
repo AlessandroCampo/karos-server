@@ -15,7 +15,7 @@ import {
     ServerRequest,
     PlayerState,
     RerollPayload
-} from '../../../shared/interfaces';
+} from '../../shared/interfaces';
 import {
     draw,
     playCard,
@@ -30,7 +30,7 @@ import {
 } from '../gameEngine';
 import { Card } from '@shared/Card';
 import { ActivateEffectResult, useEffect } from './effects/useEffect';
-import { EffectType } from '../../../shared/Effect';
+import { EffectType } from '../../shared/Effect';
 import { getPlayersFromState } from './gameUtils';
 import { EffectTriggered, SideEvent } from '../../shared/interfaces';
 

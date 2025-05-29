@@ -1,6 +1,6 @@
 // server/testDecks.ts
 
-import { CardParams } from "../../shared/interfaces";
+import { CardParams } from "../shared/interfaces";
 import { blackTemplates } from "./data/cards/blackCards";
 import { redTemplates } from "./data/cards/redCards";
 import { cardTemplates } from "./data/testCards";

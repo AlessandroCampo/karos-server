@@ -13,7 +13,7 @@ import {
     ManaBoostPayload,
     TargetSelectionPayload,
     RerollPayload
-} from '../../../shared/interfaces';
+} from '../../shared/interfaces';
 import { getPlayersFromState } from '../game/gameUtils';
 
 /**

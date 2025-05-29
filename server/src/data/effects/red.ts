@@ -1,9 +1,9 @@
 import { drawCard, dealDirectDamage, boostStats, rebornRandom, dealDamage, playCardToBoard, inflictDamageAoe, CardEffectMap, cardCanAttackAgain } from "../cardEffects";
-import { Effect } from "../../../../shared/Effect";
-import { EffectType } from "../../../../shared/Effect";
-import { controlsAnotherMinion, controlsMinionWithNameFragment, isBt, isCardTapped } from "../../../../shared/conditions";
-import { CardType, Keyword } from "../../../../shared/interfaces";
-import { Card } from "../../../../shared/Card";
+import { Effect } from "../../../shared/Effect";
+import { EffectType } from "../../../shared/Effect";
+import { controlsAnotherMinion, controlsMinionWithNameFragment, isBt, isCardTapped } from "../../../shared/conditions";
+import { CardType, Keyword } from "../../../shared/interfaces";
+import { Card } from "../../../shared/Card";
 import { handleUnitDeath, targetWithHighestStat } from "../../game/gameUtils";
 import { assert } from "console";
 

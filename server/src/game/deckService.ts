@@ -1,11 +1,11 @@
 import { prisma } from '../prismaClient';
-import { CardParams, FullCardParams } from '../../../shared/interfaces';
+import { CardParams, FullCardParams } from '../../shared/interfaces';
 import { v4 as uuidv4 } from 'uuid';
 import { testDecks } from '../testDecks';
 import { Keyword } from 'src/generated/prisma';
-import { Card } from '../../../shared/Card';
+import { Card } from '../../shared/Card';
 import { cardEffects, getActiveEffects } from '../data/cardEffects';
-import { EffectType } from '../../../shared/Effect';
+import { EffectType } from '../../shared/Effect';
 
 
 export const getBaseFromTemplate = (card: CardParams, playerId?: string) => {

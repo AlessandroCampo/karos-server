@@ -1,5 +1,5 @@
-import { StatusCondition } from "../../../../shared/Card";
-import { Effect, EffectType } from "../../../../shared/Effect";
+import { StatusCondition } from "../../../shared/Card";
+import { Effect, EffectType } from "../../../shared/Effect";
 import { ArcheType, Card } from "../../../shared/Card";
 import { CardType, Keyword } from "../../../shared/interfaces";
 import { handleUnitDeath, targetWithHighestStat, targetWithLowestStat } from "../../game/gameUtils";

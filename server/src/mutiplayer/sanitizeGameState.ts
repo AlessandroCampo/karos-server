@@ -1,5 +1,5 @@
 import { GameState, PlayerState } from "@shared/interfaces";
-import { Card } from "../../../shared/Card";
+import { Card } from "../../shared/Card";
 
 export function sanitizeGameStateFor(
     viewerId: string,

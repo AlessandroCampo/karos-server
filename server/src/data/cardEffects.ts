@@ -1,13 +1,13 @@
 
-import { Card } from "../../../shared/Card";
-import { Effect } from "../../../shared/Effect";
-import { EffectType } from "../../../shared/Effect";
-import { CardType, EventType, GameState, PlayerState } from "../../../shared/interfaces";
+import { Card } from "../../shared/Card";
+import { Effect } from "../../shared/Effect";
+import { EffectType } from "../../shared/Effect";
+import { CardType, EventType, GameState, PlayerState } from "../../shared/interfaces";
 import { draw } from "../gameEngine";
 import { applyDirectDamage, getPlayersFromState, handleUnitDeath } from "../game/gameUtils";
-import { controlsAnotherMinion, controlsMinionWithNameFragment, isCardTapped } from "../../../shared/conditions";
+import { controlsAnotherMinion, controlsMinionWithNameFragment, isCardTapped } from "../../shared/conditions";
 import red, { redEffects } from "./effects/red";
-import { gameRules } from "../../../shared/gameRules";
+import { gameRules } from "../../shared/gameRules";
 import { blackEffects } from "./effects/black";
 import { useEffect } from "../game/effects/useEffect";
 
